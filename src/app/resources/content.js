@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'M Jahangeer',
+    lastName:  'Qureshi',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Machine Learning Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Asia/karachi',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Urdu', 'Hindi']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -24,31 +24,26 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/MJahangeerQureshi',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
-    },
-    {
-        name: 'X',
-        icon: 'x',
-        link: '',
+        link: 'https://www.linkedin.com/mjahangeerqureshi/',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:m.jahangeer.qureshi@gmail.com',
     },
 ]
 
 const home = {
     label: 'Home',
-    title: `${person.name}'s Portfolio`,
-    description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    title: `${person.name}'s Professional Portfolio`,
+    description: `Showcasing projects and innovations as a ${person.role}`,
+    headline: <>Technical leadership and innovation</>,
+    subline: <>I'm M Jahangeer, a Technical Project Manager at <InlineCode>CplusSoft</InlineCode>, where I lead cutting-edge tech projects.</>
 }
 
 const about = {
@@ -69,39 +64,55 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>M Jahangeer is a seasoned Technical Project Manager based in Pakistan, with a strong background in AI, software development, and team leadership. He is dedicated to transforming complex challenges into actionable solutions through technology.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
+            // {
+            //     company: 'CplusSoft',
+            //     timeframe: '2024 - Present',
+            //     role: 'Technical Project Manager',
+            //     achievements: [
+            //         <>Led multiple AI and software development projects, significantly improving project delivery times and operational efficiency.</>,
+            //         <>Implemented innovative AI solutions that have dramatically improved client satisfaction and business outcomes.</>
+            //     ],
+            //     images: []
+            // },
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'Entropy-X',
+                timeframe: '2020 - Present',
+                role: 'Principal ML Engineer',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
-                ],
-                images: [ // optional: leave the array empty if you don't want to display images
-                    {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
-                        width: 16,
-                        height: 9
-                    }
-                ]
-            },
-            {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
-                achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Orchestrated the creation and ongoing support of a chatbot system for prominent U.S. East Coast fast food chains, including Papa John’s, Pepperonis, and Hungry Howies. This solution processes over a million orders monthly, significantly boosting customer satisfaction and revenue growth.</>,
+                    <>Led the development of a comprehensive IDP system utilized by major UAE banks such as ADIB, RakBank, and Haifin. This system processes over half a million documents monthly, enhancing data entry and KYC operations, thereby reducing costs and increasing operational efficiency.</>,
+                    <>Pioneered an AI-powered invoice verification tool as part of the UAE Trade Connect initiative by Etisalat (Haifin). This tool drastically cuts down on trade finance fraud for major financial institutions like First Abu Dhabi Bank, Emirates NBD, and Abu Dhabi Commercial Bank.</>,
+                    <>Developed an AI-driven surveillance system capable of performing facial recognition and language-image forensic searches, reducing search times from 2.5 seconds to 3.3 milliseconds per image, greatly enhancing security and response times.</>,
+                    <>Engineered a cutting-edge cell segmentation system that reduces the time needed for medical professionals to evaluate cancer cell migrations from 20 hours to 40 seconds.</>,
+                    <>Contributed to the AI backend for Xeric.AI, an AIOps platform that accelerates error detection in software systems from weeks to days, enhancing system reliability and efficiency, supported by a scholarly publication.</>
                 ],
                 images: [ ]
-            }
+            },
+            {
+                company: 'Tintash',
+                timeframe: '2018 - 2020',
+                role: 'Data Scientist',
+                achievements: [
+                    <>Engineered an AI-based classification system that streamlined the assessment of technical issues, reducing the evaluation time from 1.5 hours to just 7 minutes. This advancement significantly enhanced productivity by expediting problem resolution processes.</>,
+                    <>Designed and developed a sophisticated translation system capable of supporting real-time, voice-to-voice conversations across 50 languages. This innovation enabled seamless multilingual communications, broadening the scope of global interactions for users.</>
+                    ],
+                images: [ ]
+            },
+            {
+                company: 'Junior Machine Learning Engineer',
+                timeframe: '2017 - 2018',
+                role: 'Principal ML Engineer',
+                achievements: [
+                    <>Collaborated with academic luminaries on trailblazing research, integrating modern AI methodologies into Brain-Controlled Prostheses. Published 3 impactful papers showcasing the groundbreaking results.</>
+                ],
+                images: [ ]
+            },
         ]
     },
     studies: {
@@ -109,12 +120,8 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
-            },
-            {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Air University',
+                description: <>Bachelor of Engineering in Mechatronics, focused on integrating mechanical, electrical, and computer engineering.</>,
             }
         ]
     },
@@ -123,34 +130,19 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-02.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                    {
-                        src: '/images/projects/project-01/cover-03.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                title: 'AI & Machine Learning',
+                description: <>Expert in AI frameworks like PyTorch and TensorFlow, skilled in developing and deploying scalable ML models.</>,
+                images: []
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-04.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                title: 'Project Management',
+                description: <>Strong proficiency in Agile and Scrum methodologies, with a track record of successful project delivery.</>,
+                images: []
+            },
+            {
+                title: 'Software Development',
+                description: <>Experienced in backend and frontend development, particularly with Python, JavaScript, and related frameworks.</>,
+                images: []
             }
         ]
     }
@@ -251,4 +243,4 @@ const gallery = {
     ]
 }
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work };
