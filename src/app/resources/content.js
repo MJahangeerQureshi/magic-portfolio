@@ -70,19 +70,19 @@ const about = {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
-            // {
-            //     company: 'CplusSoft',
-            //     timeframe: '2024 - Present',
-            //     role: 'Technical Project Manager',
-            //     achievements: [
-            //         <>Led multiple AI and software development projects, significantly improving project delivery times and operational efficiency.</>,
-            //         <>Implemented innovative AI solutions that have dramatically improved client satisfaction and business outcomes.</>
-            //     ],
-            //     images: []
-            // },
+            {
+                company: 'CplusSoft',
+                timeframe: '2024 - Present',
+                role: 'Technical Project Manager',
+                achievements: [
+                    <>Led multiple AI and software development projects, significantly improving project delivery times and operational efficiency.</>,
+                    <>Implemented innovative AI solutions that have dramatically improved client satisfaction and business outcomes.</>
+                ],
+                images: []
+            },
             {
                 company: 'Entropy-X',
-                timeframe: '2020 - Present',
+                timeframe: '2020 - 2024',
                 role: 'Principal ML Engineer',
                 achievements: [
                     <>Orchestrated the creation and ongoing support of a chatbot system for prominent U.S. East Coast fast food chains, including Papa John’s, Pepperonis, and Hungry Howies. This solution processes over a million orders monthly, significantly boosting customer satisfaction and revenue growth.</>,
