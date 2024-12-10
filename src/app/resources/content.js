@@ -105,9 +105,9 @@ const about = {
                 images: [ ]
             },
             {
-                company: 'Junior Machine Learning Engineer',
+                company: 'EVEATI',
                 timeframe: '2017 - 2018',
-                role: 'Principal ML Engineer',
+                role: 'Junior Machine Learning Engineer',
                 achievements: [
                     <>Collaborated with academic luminaries on trailblazing research, integrating modern AI methodologies into Brain-Controlled Prostheses. Published 3 impactful papers showcasing the groundbreaking results.</>
                 ],
