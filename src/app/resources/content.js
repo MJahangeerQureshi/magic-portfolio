@@ -29,7 +29,7 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/mjahangeerqureshi/',
+        link: 'https://www.linkedin.com/in/mjahangeerqureshi/',
     },
     {
         name: 'Email',
