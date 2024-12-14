@@ -43,7 +43,7 @@ const home = {
     title: `${person.name}'s Professional Portfolio`,
     description: `Showcasing projects and innovations as a ${person.role}`,
     headline: <>Technical leadership and innovation</>,
-    subline: <>I'm M Jahangeer, a Technical Project Manager at <InlineCode>CplusSoft</InlineCode>, where I lead cutting-edge tech projects.</>
+    subline: <>I'm M Jahangeer, a Principal ML Engineer at <InlineCode>EntropyX</InlineCode>, where I lead cutting-edge AI projects.</>
 }
 
 const about = {
@@ -64,25 +64,25 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>M Jahangeer is a seasoned Technical Project Manager based in Pakistan, with a strong background in AI, software development, and team leadership. He is dedicated to transforming complex challenges into actionable solutions through technology.</>
+        description: <>M Jahangeer is a seasoned Machine Learning Engineer based in Pakistan, with a strong background in AI, software development, and team leadership. He is dedicated to transforming complex challenges into actionable solutions through technology.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
-            {
-                company: 'CplusSoft',
-                timeframe: '2024 - Present',
-                role: 'Technical Project Manager',
-                achievements: [
-                    <>Led multiple AI and software development projects, significantly improving project delivery times and operational efficiency.</>,
-                    <>Implemented innovative AI solutions that have dramatically improved client satisfaction and business outcomes.</>
-                ],
-                images: []
-            },
+            // {
+            //     company: 'CplusSoft',
+            //     timeframe: '2024 - Present',
+            //     role: 'Technical Project Manager',
+            //     achievements: [
+            //         <>Led multiple AI and software development projects, significantly improving project delivery times and operational efficiency.</>,
+            //         <>Implemented innovative AI solutions that have dramatically improved client satisfaction and business outcomes.</>
+            //     ],
+            //     images: []
+            // },
             {
                 company: 'Entropy-X',
-                timeframe: '2020 - 2024',
+                timeframe: '2020 - Present',
                 role: 'Principal ML Engineer',
                 achievements: [
                     <>Orchestrated the creation and ongoing support of a chatbot system for prominent U.S. East Coast fast food chains, including Papa John’s, Pepperonis, and Hungry Howies. This solution processes over a million orders monthly, significantly boosting customer satisfaction and revenue growth.</>,
