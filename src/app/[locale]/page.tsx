@@ -126,14 +126,7 @@ export default function Home(
                             
                             {/* Detailed CV Download Button */}
                             <Link href="/M_Jahangeer_Qureshi_Resume.pdf" locale={false} passHref>
-                                <Button
-                                    as="a"
-                                    download
-                                    variant="primary"
-                                    size="m"
-                                >
-                                    {t("Download Resume")}
-                                </Button>
+                                <a className="btn-primary" download>Download</a>
                             </Link>
                         </Flex>
                     </RevealFx>
